@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contact Us – Nagar Boys Hostel</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Gelasio:wght@400;700&family=Tinos:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="site-header"></div>
+<div class="cbar">CONTACT US</div>
+
+<section class="green">
+  <div class="wrap cband" style="width:min(1100px,100%)">
+    <div class="cphoto" role="img" aria-label="Students studying"></div>
+    <div class="ctext">
+      <p>“Make Yourself at Home!”</p>
+      <p><span class="hl">Address- <span data-cfg="address"></span></span></p>
+      <p><span class="hl">Contact- <span data-cfg="phone"></span></span></p>
+      <p><span class="hl"><span data-cfg="hours"></span></span></p>
+      <p><span class="hl">Email- <span data-cfg="email"></span></span></p>
+      <p><span class="hl">website- <span data-cfg="website"></span></span></p>
+    </div>
+  </div>
+</section>
+
+<div class="cform">
+  <p class="intro">Write to us at <span data-cfg="email"></span> or simply fill this form and we'll get back to you shortly:</p>
+  <form id="enquiry">
+    <input name="name" required placeholder="Name">
+    <textarea name="msg" rows="5" placeholder="Message"></textarea>
+    <input name="phone" type="tel" required placeholder="Phone No.">
+    <input name="subject" placeholder="Subject">
+    <div class="full"><button type="submit">Send on WhatsApp</button></div>
+  </form>
+</div>
+
+<div class="map" id="map"><span>Map goes here — set <b>mapEmbed</b> in script.js to your Google Maps embed link.</span></div>
+
+<div id="site-footer"></div>
+<script src="script.js"></script>
+</body>
+</html>
